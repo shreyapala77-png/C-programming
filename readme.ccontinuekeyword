@@ -1,0 +1,15 @@
+//continue keyword in forloop
+#include<stdio.h>
+int main()
+{
+	int i;
+	for(i=0;i<=10;i++)
+	{
+		if(i==5)
+		{
+			continue;
+		}
+		printf("%d\t",i);
+	}
+	return 0;
+}
